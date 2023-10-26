@@ -1,0 +1,16 @@
+@import './reset.scss';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+:root{
+  --primary-color: #333333; /* Cinza escuro */
+  --secondary-color: #666666; /* Cinza médio */
+  --color-calc: #999999; /* Cinza claro para o texto da calculadora */
+  --bg-color: #F5F5F5; /* Fundo cinza claro */
+  --title-color: #ffffff; /* Cinza escuro para o título */
+  --bg-btn: #CCCCCC; /* Cinza médio para o fundo dos botões */
+  --bg-btn-number-color: #DDDDDD; /* Cinza claro para o fundo dos botões de números */
+  --bg-btn-equal-color: #a5a5a5; /* Cinza escuro para o botão igual */
+  --bg-btn-hover-color: #BBBBBB; /* Cinza médio para o hover dos botões */
+
+}

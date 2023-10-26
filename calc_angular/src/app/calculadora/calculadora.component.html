@@ -1,0 +1,38 @@
+<div class="container">
+  <div class="calc">
+    <div class="title-calc">
+      <h2>Calculadora</h2>
+    </div>
+    <div class="operations mt-2">
+      <div class="prev-calc">{{previousOperation}}</div>
+      <div class="atual-calc">{{currentOperation}}</div>
+    </div>
+    <div class="btn-container mt-5">
+      <button (click)="setStateVisor('CE')">CE</button>
+      <button (click)="setStateVisor('C')">C</button>
+      <button (click)="setStateVisor('DEL')">DEL</button>
+      <button (click)="setStateVisor('/')" >/</button>
+
+      <button (click)="setStateVisor('7')" class="number">7</button>
+      <button (click)="setStateVisor('8')" class="number">8</button>
+      <button (click)="setStateVisor('9')" class="number">9</button>
+      <button (click)="setStateVisor('*')">*</button>
+
+      <button (click)="setStateVisor('4')" class="number">4</button>
+      <button (click)="setStateVisor('5')" class="number">5</button>
+      <button (click)="setStateVisor('6')" class="number">6</button>
+      <button (click)="setStateVisor('-')"> - </button>
+
+      <button (click)="setStateVisor('1')" class="number">1</button>
+      <button (click)="setStateVisor('2')" class="number">2</button>
+      <button (click)="setStateVisor('3')" class="number">3</button>
+      <button (click)="setStateVisor('+')">+</button>
+
+      <button (click)="setStateVisor('.')">.</button>
+      <button (click)="setStateVisor('0')" class="number">0</button>
+      <button (click)="setStateVisor('=')" class="equal">=</button>
+
+
+    </div>
+  </div>
+</div>
